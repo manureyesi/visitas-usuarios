@@ -1,4 +1,4 @@
-# visitas_usuarios
+# Plugin Wordpress Visitas Usuarios
 
 Plugin para Wordpress para el analisis de las visitas de Usuarios.
 
