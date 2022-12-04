@@ -1,12 +1,12 @@
 <?php
 /*
 Plugin Name: Visitas Usuario
-Plugin URI: https://casamanola.gal
+Plugin URI: https://github.com/manureyesi/visitas-usuarios
 Description: Plugin que registra visitas en una web de la corporación a traves de un API Rest
 Version: 1.0
 Author: Manuel Reyes
-Author URI: https://casamanola.gal
-License: GPL2
+Author URI: https://github.com/manureyesi
+License: CC BY-NC-SA 3.0 ES
 */
 
 	//Evita que un usuario malintencionado ejecute codigo php desde la barra del navegador
