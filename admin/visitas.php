@@ -19,31 +19,7 @@ if (! current_user_can ('manage_options')) wp_die (__ ('No tienes suficientes pe
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ver visitas</title>
 	
-	<link rel="stylesheet" href="css/visitas.css">
-	
-	<style>
-		.graficas {
-			width: 500px;
-		}
-
-		.container {
-			display : flex;
-			flex-direction : row;
-		}
-
-		.flex-container {
-		  display: flex;
-		  flex-direction: row;
-		}
-
-		/* Responsive layout - makes a one column layout instead of a two-column layout */
-		@media (max-width: 1000px) {
-		  .flex-container {
-			flex-direction: column;
-		  }
-		}
-
-	</style>
+	<link rel="stylesheet" href="/wp-content/plugins/visitas-usuarios/admin/css/visitas.css">
 	
     <script src="https://cdn.jsdelivr.net/npm/chart.js@latest/dist/Chart.min.js"></script>
 </head>
