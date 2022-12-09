@@ -20,7 +20,7 @@
 
 	// Top level menu del plugin
 	function visitas_menu_administrador() {
-		add_menu_page(VISITAS_NOMBRE, VISITAS_NOMBRE, 'manage_options', VISITAS_RUTA.'/admin/visitas.php'); //Crea el menu
+		add_menu_page(VISITAS_NOMBRE, VISITAS_NOMBRE, 'edit_pages', VISITAS_RUTA.'/admin/visitas.php'); //Crea el menu
 		add_submenu_page(VISITAS_RUTA.'/admin/visitas.php', 'Configuración', 'Configuracion', 'manage_options', VISITAS_RUTA.'/admin/configuracion.php');
 	}
 		

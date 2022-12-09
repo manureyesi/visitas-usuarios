@@ -11,7 +11,7 @@ include(VISITAS_RUTA.'/../includes/opciones.php');
 include(VISITAS_RUTA.'/../includes/crud.php');
 
 //Comprueba que tienes permisos para acceder a esta pagina
-if (! current_user_can ('manage_options')) wp_die (__ ('No tienes suficientes permisos para acceder a esta página.'));
+if (! current_user_can ('edit_pages')) wp_die (__ ('No tienes suficientes permisos para acceder a esta página.'));
 ?>
 
 <head>
